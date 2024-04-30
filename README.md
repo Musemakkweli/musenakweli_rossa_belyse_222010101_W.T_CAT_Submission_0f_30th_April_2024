@@ -1,12 +1,12 @@
-Online Pregnancy Test System
+## Online Pregnancy Test System
 
 
 
-DATABASE CONNECTION CREDENTIALS:
+## DATABASE CONNECTION CREDENTIALS:
 
 
-DB_SERVER:            'localhost'
-DB_USERNAME:          'belyse'
+** DB_SERVER **:            'localhost'
+** DB_USERNAME **:          'belyse'
 DB_PASSWORD:          '222010101'
 DB_NAME:              'online_pregnancy_test_system'
 DB_PORT:              '5306'
