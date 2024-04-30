@@ -1,0 +1,32 @@
+/**
+*Created by: MUSEMAKWELI Belyse Rossa Arlande 
+* Registration Number: 222010101 
+*School Department: Year 2 in BIT (Business Information Technology)
+*Project: Online Pregnancy Test System
+ *we used the Bootstrap frameworks in development
+ */
+
+.ratio {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    display: block;
+    padding-top: var(--#{$variable-prefix}aspect-ratio);
+    content: "";
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@each $key, $ratio in $aspect-ratios {
+  .ratio-#{$key} {
+    --#{$variable-prefix}aspect-ratio: #{$ratio};
+  }
+}
